@@ -1,0 +1,919 @@
+
+body {
+    background-color: rgb(224, 224, 235)!important;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    
+}
+
+.navmenu ul{
+    display: flex;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 50px;
+    margin-top: -10px;   
+}
+
+.navmenu ul li{
+    margin: 20px;
+    list-style: none;
+    font-family: 'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14pt;
+}
+
+.navmenu ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.navmenu ul li a:hover{
+    color: black;
+    background: white;
+    width: 170px;
+    height: 60px;
+    display: block;
+    position: relative;
+    z-index: 1000;
+    text-align: center;
+}
+
+.log{
+    position: absolute;
+    left: 100px;
+    top: 80px;
+}
+
+.navbar1{
+    width: 100%;
+    height: 160px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px -2px 9px;
+    position: fixed;
+    z-index: 10;
+}
+
+.navbar1 ul{
+    display: flex;
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 90px;
+}
+ 
+.navbar1 ul li{
+    margin-inline: 25px;
+    font-family: 'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+    font-size: 18pt;
+}
+
+.navbar1 ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar1 ul li a:hover{
+    color: red;
+}
+
+.navbar1 .fa{
+    position: absolute;
+    margin-left: 970px;
+    margin-top: 5px;
+    color: black;
+    font-size: 25pt;
+    font-weight: lighter;
+    
+}
+
+.navbar1 .use ul{
+    display: flex;
+    margin-inline: 40px;
+    
+}
+
+.navbar1 .use ul li{
+    margin-inline: 40px;
+    
+}
+
+.navbar1 a:hover{
+    color: red;
+}
+
+
+section{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 130px;
+}
+
+section .img{
+    position: absolute;
+    left: 590px;
+    top: -40px;
+}
+
+.text{
+    font-size: 40pt;
+    font-family: 'Franklin Gothic Medium';
+    color: black;
+    position: relative;
+    margin-top: 20px;
+}
+
+.text1{
+    color: black;
+    font-size: 18pt;
+    position: absolute;
+    margin-top: -10px;
+    position: relative;
+}
+
+section button{
+    background: red;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    width: 140px;
+    height: 50px;
+    font-size: 15pt;
+}
+
+section button:hover{
+    color: whitesmoke;
+}
+
+section button a{
+    text-decoration: none;
+    color: white;
+       
+}
+
+.navbar3{
+    background: rgb(161, 3, 3);
+    width: 100%;
+    height: auto!important;
+    position: relative;
+    top: 520px;
+    display: flex;
+    justify-content: center;
+}
+
+.navmenu2 ul{
+    display: inline-flex;
+    position: relative;
+}
+
+.navmenu2 ul li{
+    margin: 30px;
+    font-size: 17pt;
+    list-style: none;
+    color: white;
+    text-align: center;
+    
+ 
+}
+
+.navmenu2 ul p{
+    margin: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    height: 70px;
+    width: 70px; 
+    border-radius: 50%;
+    border: 1px solid white; 
+}
+
+.navmenu2 ul li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    align-items: center;
+}
+
+.dis{
+    margin-top: 350px;
+    font-size: 40pt;
+    color: black;
+}
+
+.box{
+    width: 500px;
+    height: 530px;
+    background: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+
+.img1{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.box p{
+    position: absolute;
+    margin-top: 350px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+.box button{
+    background: rgb(197, 3, 3);
+    border-radius: 10px;
+    width: 420px;
+    height: 45px;
+    margin-top: 450px;
+    margin-left: 40px;
+}
+
+.box button:hover{
+    background: rgb(235, 225, 225);
+    color: red;
+    box-shadow: 2px, 2px, 8px;
+}
+
+section .box1{
+    width: 480px;
+    height: 300px;
+    background: white;
+    border-radius: 10px;
+    margin-top: 435px;
+    margin-left: 520px;
+    
+}
+
+.img2{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 20px;
+    width: 180px;
+    height: 230px;
+}
+
+.box1 p{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 80px;
+    font-size: 16pt;
+    color: black;
+}
+
+.box1 button{
+    background: rgb(197, 3, 3);
+    border-radius: 10px;
+    width: 200px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 180px;
+    
+}
+
+.box1 button:hover{
+    background: rgb(235, 225, 225);
+    color: red;
+    box-shadow: 2px, 2px, 8px;
+}
+
+.box2{
+    position: absolute;
+    margin-top: 745px;
+    margin-left: 520px;
+    border-radius: 10px;
+    width: 480px;
+    height: 220px;
+    background: linear-gradient(45deg,darkred,red);   
+}
+
+.img3{
+    position: absolute;
+    width: 210px;
+    height: 170px;
+    margin-top: 30px;
+    margin-left: 240px;
+}
+
+.box2 p{
+    color: white;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 25px;
+    font-weight: bolder;
+}
+
+.box2 button{
+    background: rgb(255, 251, 251);
+    border-radius: 10px;
+    width: 180px;
+    height: 50px;
+    color: red;
+    margin-left: 25px;
+    margin-top: 150px;  
+}
+
+.box2 button:hover{
+  color: white;
+  background: rgb(165, 159, 159);   
+}
+
+.text2{
+    position: absolute;
+    margin-top: 1250px;
+    margin-left: 150px;
+    font-size: 60px;
+    color: black;
+    
+}
+
+.btn{
+    position: absolute;
+    margin-top: 1350px;
+    margin-left: 490px;
+}
+
+.btn1{
+    margin-inline: 10px;
+    background: teal;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+
+.btn2{
+    margin-inline: 10px;
+    background: rgb(255, 255, 255);
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn2:hover{
+    background: teal;
+    color: white;
+
+}
+
+.box3{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 90px;
+}
+
+.b1{
+    position: absolute;
+    width: 320px;
+    height: 750px;
+    background: white;
+    margin-top: 1350px;
+    border-radius: 10px;
+}
+
+.b1 img{
+    position: absolute;
+    margin-left: 13px;
+    margin-top: 10px;
+}
+
+.b1 button{
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 10px;
+    width: 300px;
+    height: 40px;
+    background: rgb(211, 3, 3);
+}
+
+.b1 button:hover{
+    background: rgb(219, 217, 217);
+    color: red;
+}
+
+.b1 p{
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 540px;
+    text-align: center;
+}
+
+.b2{
+    position: absolute;
+    width: 350px;
+    height: 420px;
+    background: rgb(255, 255, 255);
+    margin-top: 1350px;
+    margin-left: 340px;
+    border-radius: 10px;
+}
+
+.b3{
+    position: absolute;
+    width: 350px;
+    height: 420px;
+    background: rgb(255, 255, 255);
+    margin-top: 1350px;
+    margin-left: 710px;
+    border-radius: 10px;
+}
+
+.mor{
+    position: absolute;
+    width: 320px;
+    height: 120px;
+    background: linear-gradient(45deg, darkred, red);
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.mor .p1{
+    text-align: center;
+    color: white;
+    position: relative;
+    margin-top: 25px;
+}
+
+.mor .p2{
+    text-align: center;
+    color: white;
+    position: relative;
+    margin-top: -20px;
+    font-size: 24pt;
+}
+
+.enj{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 20px;
+
+}
+
+.enj1{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 120px;
+    font-size: 18pt;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.btn3{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 20px;
+    width: 300px;
+    height: 50px;
+    background: rgb(206, 3, 3);
+}
+
+.btn3:hover{
+    background: rgb(219, 217, 217);
+    color: red;
+}
+
+.do{
+    position: absolute;
+    margin-top: 450px;
+    font-weight: bolder;
+    font-size: 18pt;
+    color: black;
+}
+
+.btn4{
+    position: absolute;
+    margin-top: 590px;
+    margin-left: 20px;
+    width: 300px;
+    height: 50px;
+    background: rgb(206, 3, 3);
+}
+
+.btn4:hover{
+    background: rgb(219, 217, 217);
+    color: red;
+}
+
+.mor1{
+    position: absolute;
+    width: 320px;
+    height: 120px;
+    background: linear-gradient(45deg, darkred, red);
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.mor1 .p3{
+    text-align: center;
+    color: white;
+    position: relative;
+    margin-top: 25px;
+}
+
+.mor1 .p4{
+    text-align: center;
+    color: white;
+    position: relative;
+    margin-top: -20px;
+    font-size: 24pt;
+}
+
+.enj2{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 20px;
+
+}
+
+.enj3{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 120px;
+    font-size: 18pt;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.btn5{
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 20px;
+    width: 300px;
+    height: 50px;
+    background: rgb(206, 3, 3);
+}
+
+.mor2{
+    position: absolute;
+    width: 320px;
+    height: 120px;
+    background: linear-gradient(45deg, darkred, red);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.mor2 .p5{
+    text-align: center;
+    color: white;
+    position: relative;
+    margin-top: 25px;
+}
+
+.mor2 .p6{
+    text-align: center;
+    color: white;
+    position: relative;
+    margin-top: -20px;
+    font-size: 24pt;
+}
+
+.enj4{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 20px;
+
+}
+
+.enj5{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 18pt;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.btn6{
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 20px;
+    width: 300px;
+    height: 50px;
+    background: rgb(206, 3, 3);
+}
+
+.btn6:hover{
+    background: whitesmoke;
+    color: red;
+}
+
+.b4{
+    position: relative;
+    width: 350px;
+    height: 320px;
+    background: rgb(255, 255, 255);
+    margin-top: 430px;
+    border-radius: 10px;
+}
+
+.vod{
+    margin-top: 2100px;
+    font-size: 35pt;
+    color: black;
+}
+
+.img4{
+    position: absolute;
+    margin-left: 560px;
+    margin-top: -47px;
+}
+
+.box4{
+    position: absolute;
+    width: 560px;
+    height: 350px;
+    background: white;
+    margin-top: 30px;
+}
+
+.text3{
+    display: flex;
+    margin-inline: 40px;
+    margin-top: 20px;
+    margin-left: 150px;
+    
+}
+
+.text3 div{
+    margin-inline: 20px;
+    font-size: 14pt;
+    font-weight: bold;
+    
+}
+
+.text4{
+    margin-inline: 40px;
+    margin-top: 20px;
+    font-size: 20pt;
+    color: black;
+}
+
+.text5{
+    margin-inline: 40px;
+    margin-top: 30px;
+}
+
+.navbar4{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    margin-top: 3100px;
+    background: linear-gradient(45deg, darkred, red);
+    z-index: -10;
+}
+
+.navbar4 div{
+    color: white;
+    margin-top: 60px;
+    margin-inline: 130px;
+    font-size: 18pt;
+}
+
+.btn7{
+    position: absolute;
+    margin-left: 840px;
+    margin-top: -55px;
+    width: 180px;
+    height: 80px;
+    background: none;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    color: white;
+}
+
+.btn7:hover{
+    background: black;
+}
+
+.btn7 p{
+    text-align: left;
+    margin-top: -50px;
+    margin-left: 60px;
+}
+
+.btn7 .fa{
+    font-size: 50px;
+    margin-left: -110px;
+    margin-top: 10px;
+    
+}
+
+.btn8{
+    position: absolute;
+    margin-left: 1030px;
+    margin-top: -55px;
+    width: 180px;
+    height: 80px;
+    background: none;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    color: white;
+}
+
+.btn8:hover{
+    background: black;
+}
+
+.btn8 p{
+    text-align: left;
+    margin-top: -50px;
+    margin-left: 60px;
+}
+
+.btn8 .fa{
+    font-size: 50px;
+    margin-left: -110px;
+    margin-top: 10px;
+    
+}
+
+footer{
+    width: 100%;
+    height: 700px;
+    background: rgb(0, 0, 0);
+    position: relative;
+    top: 2970px;
+    z-index: -100;
+}
+
+footer p{
+    position: absolute;
+    margin-top: 130px;
+    margin-inline: 130px;
+    color: white;
+    font-size: 20pt;
+}
+
+footer img{
+    position: absolute;
+    margin-top: 130px;
+    margin-inline: 1130px;
+}
+
+footer div{
+    color: white;
+    position: absolute;
+    margin-top: 180px;
+    font-size: 20pt;
+    margin-inline: 130px;
+    
+}
+
+footer div i{
+    margin: 5px;
+}
+
+footer hr{
+    color: white;
+    position: absolute;
+    margin-top: 250px;
+    width: 80%;
+    margin-inline: 130px;
+}
+
+.foot div{
+    color: white;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 10px;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.foot div a{
+    text-decoration: none;
+    color: white;
+}
+
+.foot p{
+    color: white;
+    position: relative;
+    margin-block: 10px;
+    margin-left: 10px;
+    font-size: 12pt;
+}
+
+.foot1 div{
+    color: white;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 300px;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.foot1 div a{
+    text-decoration: none;
+    color: white;
+}
+
+.foot1 p{
+    color: white;
+    position: relative;
+    margin-block: 10px;
+    margin-left: 300px;
+    font-size: 12pt;
+}
+
+.foot2 div{
+    color: white;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 600px;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.foot2 div a{
+    text-decoration: none;
+    color: white;
+}
+
+.foot2 p{
+    color: white;
+    position: relative;
+    margin-block: 10px;
+    margin-left: 600px;
+    font-size: 12pt;
+}
+
+.foot3 div{
+    color: white;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 900px;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.foot3 div a{
+    text-decoration: none;
+    color: white;
+}
+
+.foot3 p{
+    color: white;
+    position: relative;
+    margin-block: 10px;
+    margin-left: 900px;
+    font-size: 12pt;
+}
+
+.foot4{
+    position: absolute;
+    color: white;
+    margin-top: 450px;
+    margin-left: 370px;  
+}
+
+.foot4 ul{
+    display: flex;
+    margin-top: 180px;
+    padding-left: 140px;
+}
+
+.foot4 ul li{
+    font-size: 10pt;
+    margin-inline: 10px;
+    list-style: none;  
+}
+
+.foot4 hr{
+    color: white;
+    position: absolute;
+    margin-top: -25px;
+    transform: rotate(90deg);
+    width: 30px;
+    margin-left: 260px;
+}
+
+.foot4 .hr1{
+    color: white;
+    position: absolute;
+    margin-top: -25px;
+    transform: rotate(90deg);
+    width: 30px;
+    margin-left: 360px;
+}
+
